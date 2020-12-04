@@ -1,0 +1,36 @@
+package net.ddns.lukashuth.utils;
+
+import java.io.File;
+
+import org.bukkit.configuration.file.YamlConfiguration;
+
+public class Config {
+	
+	private File file;
+	
+	private YamlConfiguration config;
+	
+	public Config()
+	{
+		File dir = new File("./plugins/bp/");
+		if(!dir.exists()) {
+			dir.mkdirs();
+		}
+		
+		file = new File(dir, "config.yml");
+		if(!file.exists()) {
+			try {
+				file.createNewFile();
+			} catch(Exception ex){}
+		}
+	}
+	
+	public boolean contains(String path) {
+		return config.contains(path);
+	}
+	
+	public void set(String path, Object value) {
+		config.set(path, value);
+	}
+	
+}

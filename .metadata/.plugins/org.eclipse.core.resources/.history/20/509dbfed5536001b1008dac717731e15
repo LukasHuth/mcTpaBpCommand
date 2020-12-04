@@ -1,0 +1,26 @@
+package net.ddns.lukashuth.commands;
+
+import java.io.File;
+import java.util.UUID;
+
+import org.bukkit.Bukkit;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+public class BpCommand implements CommandExecutor {
+	
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+		if(sender instanceof Player) {
+			Player p = (Player) sender;
+			UUID uid = UUID.fromString("7aba74e2-b991-4fb0-a666-a8f2342fb950");
+			Player pp = (Player) Bukkit.getPlayer(uid);
+			p.openInventory(pp.getEnderChest());
+		}
+		return false;
+	}
+	
+	
+}

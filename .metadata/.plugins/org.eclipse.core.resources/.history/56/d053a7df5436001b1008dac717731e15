@@ -1,0 +1,18 @@
+package net.ddns.lukashuth.commands;
+
+import java.io.File;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+
+public class BpCommand implements CommandExecutor {
+	
+	@Override
+	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+		//7aba74e2-b991-4fb0-a666-a8f2342fb950
+		return false;
+	}
+	
+	
+}

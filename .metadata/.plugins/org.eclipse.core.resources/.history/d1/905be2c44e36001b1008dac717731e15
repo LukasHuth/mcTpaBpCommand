@@ -1,0 +1,17 @@
+package net.ddns.lukashuth.utils;
+
+import org.bukkit.block.Block;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerInteractEvent;
+
+public class OnClick implements Listener {
+	
+	@EventHandler
+	public void onClick(PlayerInteractEvent e) {
+		try {
+			Block a = e.getClickedBlock();
+		}catch (Exception ex) {}
+	}
+	
+}

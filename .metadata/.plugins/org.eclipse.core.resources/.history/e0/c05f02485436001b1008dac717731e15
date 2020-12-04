@@ -1,0 +1,17 @@
+package net.ddns.lukashuth.commands;
+
+import java.io.File;
+
+import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.configuration.file.YamlConfiguration;
+
+import net.ddns.lukashuth.main.Main;
+
+public class BpCommand {
+	
+	@SuppressWarnings("unused")
+	private Main plugin;
+	File file = new File("plugin/bp", "config.yml");
+	FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
+	
+}

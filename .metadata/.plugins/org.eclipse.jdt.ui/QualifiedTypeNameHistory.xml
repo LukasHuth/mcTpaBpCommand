@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.oracle.jrockit.jfr.EventDefinition"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.EventListener"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.java.JavaPlugin"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.player.PlayerInteractEvent"/>
+    <fullyQualifiedTypeName name="org.bukkit.block.Block"/>
+    <fullyQualifiedTypeName name="net.minecraft.server.v1_16_R3.Blocks"/>
+    <fullyQualifiedTypeName name="org.bukkit.plugin.PluginManager"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.EventHandler"/>
+    <fullyQualifiedTypeName name="org.bukkit.Material"/>
+    <fullyQualifiedTypeName name="net.ddns.lukashuth.utils.OnClick"/>
+    <fullyQualifiedTypeName name="org.bukkit.event.block.Action"/>
+    <fullyQualifiedTypeName name="org.bukkit.Bukkit"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
+    <fullyQualifiedTypeName name="net.ddns.lukashuth.main.Main"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="org.bukkit.configuration.file.FileConfiguration"/>
+    <fullyQualifiedTypeName name="org.bukkit.configuration.file.YamlConfiguration"/>
+    <fullyQualifiedTypeName name="org.bukkit.command.CommandExecutor"/>
+    <fullyQualifiedTypeName name="org.bukkit.entity.Player"/>
+    <fullyQualifiedTypeName name="net.ddns.lukashuth.commands.BpCommand"/>
+</qualifiedTypeNameHistroy>

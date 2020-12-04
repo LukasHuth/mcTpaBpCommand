@@ -1,0 +1,13 @@
+package net.ddns.lukashuth.utils;
+
+import java.io.File;
+
+import org.bukkit.configuration.file.YamlConfiguration;
+
+public class Config {
+	
+	private File file;
+	
+	private YamlConfiguration config;
+	
+}

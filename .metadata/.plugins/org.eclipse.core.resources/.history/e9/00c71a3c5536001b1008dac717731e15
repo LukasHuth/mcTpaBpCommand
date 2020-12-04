@@ -1,0 +1,16 @@
+package net.ddns.lukashuth.main;
+
+import org.bukkit.plugin.PluginManager;
+import org.bukkit.plugin.java.JavaPlugin;
+
+import net.ddns.lukashuth.listener.OnClick;
+
+public class Main extends JavaPlugin {
+	public void onEnable() {
+		PluginManager pm = getServer().getPluginManager();
+		pm.registerEvents(new OnClick(), this);
+	}
+	public void onDisable() {
+		
+	}
+}

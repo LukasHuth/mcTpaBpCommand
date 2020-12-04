@@ -1,0 +1,13 @@
+package net.ddns.lukashuth.utils;
+
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+
+public class OnClick implements Listener {
+	
+	@EventHandler
+	public void onClick() {
+		
+	}
+	
+}

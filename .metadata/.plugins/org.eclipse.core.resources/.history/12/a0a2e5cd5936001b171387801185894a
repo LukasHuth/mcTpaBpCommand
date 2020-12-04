@@ -1,0 +1,10 @@
+main: net.ddns.lukashuth.main.Main
+name: plugin
+version: 1
+author: me
+description: plugin
+
+commands:
+   bp:
+      description: Backpack
+      

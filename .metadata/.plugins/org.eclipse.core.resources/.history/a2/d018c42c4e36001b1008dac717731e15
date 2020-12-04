@@ -1,0 +1,10 @@
+package net.ddns.lukashuth.utils;
+
+import java.util.EventListener;
+
+public class OnClick implements EventListener {
+	
+	@Override
+	public void onClick()
+	
+}

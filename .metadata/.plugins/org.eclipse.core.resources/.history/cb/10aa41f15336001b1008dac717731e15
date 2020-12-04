@@ -1,0 +1,5 @@
+package net.ddns.lukashuth.commands;
+
+public class BpCommand {
+
+}

@@ -1,0 +1,26 @@
+package net.ddns.lukashuth.utils;
+
+import org.bukkit.block.Block;
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.Listener;
+import org.bukkit.event.player.PlayerInteractEvent;
+
+import net.minecraft.server.v1_16_R3.Blocks;
+
+public class OnClick implements Listener {
+	
+	@EventHandler
+	public void onClick(PlayerInteractEvent e) {
+		Player p = (Player) e.getPlayer();
+		p.sendMessage("a");
+		try {
+			Block a = e.getClickedBlock();
+			if(a == Blocks.ENDER_CHEST) {
+				Player p = (Player) e.getPlayer();
+				p.sendMessage("a");
+			}
+		}catch (Exception ex) {}
+	}
+	
+}
