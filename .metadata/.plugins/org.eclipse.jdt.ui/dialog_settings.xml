@@ -3,7 +3,7 @@
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-1.8"/>
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="1"/>
 	<item key="org.eclipse.jdt.ui.last.selected.project.jre" value="jre1.8.0_271"/>
-	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\lukas\Desktop\pvp server"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="D:\mc proxy test\server1"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="1"/>
@@ -50,7 +50,11 @@
 		<item key="JarManifestWizardPage.MANIFEST_LOCATION" value=""/>
 		<item key="JarManifestWizardPage.SEAL_JAR" value="false"/>
 		<list key="JarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="C:\Users\lukas\Desktop\pvp server\plugins\ec.jar"/>
 			<item value="C:\Users\lukas\Desktop\pvp server\plugins\test.jar"/>
+			<item value="D:\mc proxy test\server1\plugins\ec.jar"/>
+			<item value="D:\mc proxy test\server1\plugins\test.jar"/>
+			<item value="D:\mc proxy test\server2\plugins\test.jar"/>
 		</list>
 	</section>
 </section>

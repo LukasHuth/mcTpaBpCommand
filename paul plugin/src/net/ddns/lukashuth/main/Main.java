@@ -17,8 +17,8 @@ public class Main extends JavaPlugin {
 	
 	public void onEnable() {
 		PluginManager pm = getServer().getPluginManager();
-		pm.registerEvents(new OnClick(), this);
-		this.getCommand("bp").setExecutor(new BpCommand());
+		//pm.registerEvents(new OnClick(), this);
+		//this.getCommand("bp").setExecutor(new BpCommand());
 		this.getCommand("tpa").setExecutor(new TpaCommand());
 		this.getCommand("atp").setExecutor(new AtpCommand());
 	}

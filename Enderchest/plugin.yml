@@ -1,0 +1,9 @@
+main: net.ddns.lukashuth.enderchest.main.Main
+name: enderchest
+version: 1
+author: me
+description: Enderchest and Backpack plugin
+
+commands:
+   ec:
+      description: Enderchest

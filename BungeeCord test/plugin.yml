@@ -1,0 +1,9 @@
+main: net.ddns.lukashuth.proxy.test.main.Main
+name: proxy_plugin
+version: 1
+author: me
+description: Proxy Plugin
+
+commands:
+   test:
+      description: test command
