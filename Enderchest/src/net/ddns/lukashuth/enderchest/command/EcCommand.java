@@ -30,7 +30,10 @@ public class EcCommand implements CommandExecutor {
 			if(ecnum>=4)ecnum=0;
 			
 			Inventory ec = Bukkit.createInventory(p, 27, "§5Ender Chest "+ecnum);
-			
+			if(ecnum==0&&plugin.ec0==null)plugin.ec0=ec;
+			if(ecnum==1&&plugin.ec1==null)plugin.ec1=ec;
+			if(ecnum==2&&plugin.ec2==null)plugin.ec2=ec;
+			if(ecnum==3&&plugin.ec3==null)plugin.ec3=ec;
 			for(int i=0;i<27;i++) {
 				if(cfg.getInt("ec."+ecnum+".slot."+i+".amount") != 0) {
 //					System.out.println(cfg.getInt("ec.slot."+i+".amount"));
@@ -40,7 +43,10 @@ public class EcCommand implements CommandExecutor {
 					ec.setItem(i, item);
 				}
 			}
-			p.openInventory(ec);
+			if(ecnum==0)p.openInventory(plugin.ec0);
+			if(ecnum==1)p.openInventory(plugin.ec1);
+			if(ecnum==2)p.openInventory(plugin.ec2);
+			if(ecnum==3)p.openInventory(plugin.ec3);
 		}
 		
 		return false;

@@ -1,6 +1,7 @@
 package net.ddns.lukashuth.enderchest.main;
 
 import org.bukkit.configuration.file.FileConfiguration;
+import org.bukkit.inventory.Inventory;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -12,6 +13,11 @@ public class Main extends JavaPlugin {
 	private static Main instance;
 	
 	private FileConfiguration cfg = getConfig();
+
+	public Inventory ec0 = null;
+	public Inventory ec1 = null;
+	public Inventory ec2 = null;
+	public Inventory ec3 = null;
 	
 	public void onEnable() {
 		instance = this;

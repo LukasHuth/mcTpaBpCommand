@@ -10,6 +10,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
+import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.Inventory;
@@ -57,6 +58,13 @@ public class OnClose implements Listener {
 			}
 		}catch (Exception ex) {}
 	
+	}
+	
+	@EventHandler
+	public void onDeath(PlayerDeathEvent e) {
+		Player p = (Player) e.getEntity();
+		String deathmsg = e.getDeathMessage();
+		e.setDeathMessage("§6"+deathmsg+" at ("+p.getLocation().getBlockX()+" "+p.getLocation().getBlockY()+" "+p.getLocation().getBlockZ()+")");
 	}
 	
 }
